@@ -1,0 +1,479 @@
+* { padding: 0; margin: 0; }
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+.app-header {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    background-color: rgb(236, 0, 0);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    border-radius: 5px 3px 3px 3px;
+}
+.logo{
+    z-index: 1;
+    width: 13vw;
+    height: 10vh;
+}
+.info{
+    position: absolute;
+    font-size: 2.7vh;
+    top: 3.8vh;
+    font-weight: bold;
+    left: 15vw;
+    color: whitesmoke;
+    font-family: 'Roboto';
+}
+.info1{
+    position: absolute;
+    font-size: 2.2vh;
+    top: 7vh;
+    left: 15vw;
+    color: whitesmoke;
+    font-family: 'Roboto';
+}
+.bar1{
+    width: 18vw;
+    height:8vh;
+    position: absolute;
+    top: 14.5vh;
+    left:2vw;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto';
+}
+.yas-ortalama{
+    position: absolute;
+    top: 4.9vh;
+    left: 5.5vw;
+    text-align: center;
+    font-size: 2vh;
+    color: black;
+}
+.yas-ortalama2{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 0, 0);
+}
+.bar2{
+    width: 18vw;
+    height: 8vh;
+    position: absolute;
+    top: 14.5vh;
+    left: 21.2vw;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto';
+}
+
+.bakiye-ortalama{
+    position: absolute;
+    top: 4.9vh;
+    left: 4.9vw;
+    text-align: center;
+    font-size: 2vh;
+    color: black;
+}
+.bakiye-ortalama2{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 0, 0);
+}
+.bar3{
+    width: 18vw;
+    height:8vh;
+    position: absolute;
+    top: 14.5vh;
+    left: 40.1vw;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto';
+    
+}
+.maas-ortalama{
+    position: absolute;
+    top: 4.9vh;
+    left: 5.1vw;
+    text-align: center;
+    font-size: 2vh;
+    color: black;
+}
+.maas-ortalama2{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 0, 0);
+}
+.bar4{
+    width: 18vw;
+    height:8vh;
+    position: absolute;
+    top: 14.5vh;
+    left: 59vw;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto';
+}
+.yıl-ortalama{
+    position: absolute;
+    top: 4.9vh;
+    left: 3.8vw;
+    text-align: center;
+    font-size: 2vh;
+    color: black;
+}
+.yıl-ortalama2{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 0, 0);
+}
+.bar5{
+    width: 18vw;
+    height:8vh;
+    position: absolute;
+    top: 14.5vh;
+    left: 77.9vw;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto';
+    
+}
+.kredi-ortalama{
+    position: absolute;
+    top: 4.9vh;
+    left: 3.8vw;
+    text-align: center;
+    font-size: 2vh;
+    color: black;
+
+}
+.kredi-ortalama2{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(236, 0, 0);
+}
+.div1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: absolute;
+    top: 85vh;
+    left: 62.9vw;
+    width: 33vw;
+    height: 39vh;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+.div2{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    
+    width: 66.7vw;
+    height: 56.5vh;
+    left: 29.2vw;
+    top: 25vh;
+}
+.div3{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    
+    width: 32.5vw;
+    height: 39vh;
+    top: 85vh;
+    left: 29.2vw;
+}
+.div4{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    
+    width: 26.1vw;
+    height: 56.5vh;
+    top: 25vh;
+    left: 2vw;
+    
+}
+.div5{
+    position: absolute;
+    left: 2vw;
+    top: 85vh;
+    width: 26.1vw;
+    height: 25vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    
+
+}
+.div6{
+    position: absolute;
+    width: 26.1vw;
+    height: 11vh;
+    top: 112vh;
+    left: 2vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    width: 30vw;
+}
+#names{
+    top: -0.5vh;
+    width: 15vw;
+    position: absolute;
+    left: 10vw;
+}
+
+#values{
+    width: 15vw;
+    position: absolute;
+    left: 10vw;
+}
+.value{
+    font-size: 1vw;
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    position: absolute;
+    left: 1vw;
+    top: 6vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+}
+.depo1{
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 15vh;
+    top: 22vh;
+    left: 10vw;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Consolas';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+    
+
+.egitim-dogruluk2{
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(236, 0, 0);
+    font-family: 'Roboto';
+
+}
+.egitim-dogruluk{
+    position: absolute;
+    top: 8vh;
+    left: 3vw;
+    text-align: center;
+    font-size: 2.6vh;
+    color: black;
+    font-family: 'Roboto';
+}
+.depo2{
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 15vh;
+    top: 22vh;
+    left: 40vw;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-family: 'Roboto';
+}
+.test-dogruluk2{
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(236, 0, 0);
+    font-family: 'Roboto';
+    
+}
+.test-dogruluk{
+    position: absolute;
+    top: 8vh;
+    left: 3.8vw;
+    text-align: center;
+    font-size: 2.6vh;
+    color: black;
+    font-family: 'Roboto'
+}
+.depo3{
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 15vh;
+    top: 22vh;
+    left: 70vw;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Roboto';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.logistic{
+    background-color: whitesmoke;
+}
+.dagilim2{
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(236, 0, 0);
+    font-family: 'Roboto'
+}
+.dagilim{
+    position: absolute;
+    top: 8vh;
+    left: 3.9vw;
+    text-align: center;
+    font-size: 2.6vh;
+    color: black;
+    font-family: 'Roboto'
+}
+.modeladi{
+    position: absolute;
+    background: whitesmoke;
+    color: rgb(236, 0, 0);
+    top : 16vh;
+    left : 10vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tahmin1{
+    position: absolute;
+    top: 45vh;
+    left: 4vw;
+    height:35vh; 
+    width: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.tahmin2{
+    position: absolute;
+    left: 35vw;
+    top: 45vh;
+    height:35vh; 
+    width:30vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.tahmin3{
+    position: absolute;
+    top: 45vh;
+    left: 66vw;
+    height:35vh; 
+    width:30vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.tahmin4{
+    position: absolute;
+    left: 4vw;
+    top: 83vh;
+    height:45vh; 
+    width:45vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.tahmin5{
+    position: absolute;
+    left: 4vw;
+    top: 132vh;
+    height:38vh; 
+    width:91.9vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.tahmin6{
+    position: absolute;
+    left: 50vw;
+    top: 83vh;
+    height:45vh; 
+    width:45.9vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.degiskenler .degerler{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.page-1-display-value{
+    z-index: 1;
+    position: absolute;
+    top: 900px;
+    left: 900px;
+}
+/* .hrefa{
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 6.8vw;
+    height: 3.9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 3.5vh;
+    left: 90vw;
+    text-decoration: none;
+    font-size: 1vw;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color: red;
+    font-family: 'SF Mono';
+    
+} */
+
+
+.hrefa {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: rgb(236, 0, 0);
+  cursor: pointer;
+  display: flex;
+  font-family: 'SF Mono';
+  height: 4.5vh;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 1.17vw;
+  padding-right: 1.17vw;
+  position: fixed;
+  text-align: left;
+  top: 3vh;
+  left: 90vw;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 1vw;
+}
+
+.hrefa:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.hrefa:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+hrefa:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* .hrefa:active {
+    border-bottom: solid 2px red;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+} */
+
+
+
+
